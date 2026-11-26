@@ -1,0 +1,86 @@
+{
+  "title": "Architecture d'entreprise : cadrage 2027 (exemple de démo)",
+  "theme": {
+    "primary": "1F3A5F",
+    "accent": "00915A",
+    "confidentiality": "Démo, données fictives"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "title": "Architecture d'entreprise : cadrage 2027",
+      "subtitle": "Deck généré par Claude Code à partir d'une spec JSON",
+      "date": "Novembre 2026"
+    },
+    {
+      "type": "bullets",
+      "title": "Trois décisions sont attendues du comité avant la fin du T1",
+      "message": "Sans arbitrage au T1, les chantiers 2027 démarrent sans priorisation partagée",
+      "bullets": [
+        "Valider la carte des capacités métiers L1-L2 comme référentiel commun",
+        "Arbitrer le socle de la plate-forme data cible",
+        ["Option A : socle unique", "Option B : socle par métier, fédéré"],
+        "Lancer la rationalisation applicative sur deux métiers pilotes"
+      ],
+      "source": "Ateliers de cadrage, chiffres fictifs pour la démo",
+      "notes": "Commencer par la décision attendue, pas par le contexte."
+    },
+    {
+      "type": "kpis",
+      "title": "Le parc applicatif concentre l'essentiel du potentiel d'économies",
+      "kpis": [
+        {"value": "420", "label": "applications recensées (fictif)"},
+        {"value": "35 %", "label": "en recouvrement fonctionnel partiel"},
+        {"value": "6", "label": "socles data en parallèle"},
+        {"value": "10 M€", "label": "objectif d'économies 2027"}
+      ],
+      "comment": "Ordres de grandeur illustratifs : à remplacer par l'inventaire réel avant tout usage."
+    },
+    {
+      "type": "two_columns",
+      "title": "Le run et le change doivent être pilotés séparément",
+      "left": {
+        "heading": "Run : réduire le coût unitaire",
+        "bullets": ["Décommissionnement des doublons", "Mutualisation des socles techniques", "Renégociation des licences"]
+      },
+      "right": {
+        "heading": "Change : financer les capacités cibles",
+        "bullets": ["Plate-forme data cible", "Cas d'usage IA à ROI mesurable", "Portail client unifié"]
+      }
+    },
+    {
+      "type": "matrix",
+      "title": "Prioriser les chantiers selon la valeur et la faisabilité",
+      "x_label": "Faisabilité",
+      "y_label": "Valeur",
+      "quadrants": [
+        {"title": "Préparer", "items": ["Plate-forme data cible"]},
+        {"title": "Lancer maintenant", "items": ["Rationalisation applicative pilote", "Assistants IA pour l'architecture"]},
+        {"title": "Écarter", "items": ["Refonte complète du SI cœur"]},
+        {"title": "Opportuniste", "items": ["Automatisation du reporting interne"]}
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Les options de socle data se départagent sur le coût de transition",
+      "columns": ["Critère", "Option A : socle unique", "Option B : socle fédéré"],
+      "col_widths": [0.3, 0.35, 0.35],
+      "rows": [
+        ["Coût de run cible", "Plus bas", "Intermédiaire"],
+        ["Coût de transition", "Élevé", "Modéré"],
+        ["Autonomie des métiers", "Faible", "Forte"],
+        ["Risque de dérive", "Faible", "Moyen, à gouverner"]
+      ],
+      "source": "Analyse qualitative, à confirmer"
+    },
+    {
+      "type": "roadmap",
+      "title": "Une trajectoire en trois horizons, avec un point de décision par phase",
+      "phases": [
+        {"label": "Cadrer", "period": "T1 2027", "items": ["Carte des capacités validée", "Arbitrage socle data"]},
+        {"label": "Piloter", "period": "T2-T3 2027", "items": ["Deux métiers pilotes", "Premiers décommissionnements"]},
+        {"label": "Industrialiser", "period": "2028", "items": ["Extension à tous les métiers", "Mesure des économies"]}
+      ]
+    }
+  ]
+}
