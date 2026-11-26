@@ -1,0 +1,10 @@
+# environnement Python local
+.venv/
+__pycache__/
+# fichiers générés
+sortie/*
+!sortie/.gitkeep
+# modèles PowerPoint de l'entreprise : ne pas versionner sur un dépôt externe
+modeles/*
+!modeles/.gitkeep
+.DS_Store
