@@ -8,7 +8,7 @@
 Contenu :
 - `CLAUDE.md` : règles de l'espace de travail
 - `.claude/skills/deck-builder/` : le skill (méthode, format de spec, script de rendu python-pptx, export PDF via PowerPoint)
-- `exemples/` : un brief et une spec de démonstration (données fictives)
+- `exemples/` : un brief, une spec de démonstration et le deck généré `deck-exemple.pptx` (données fictives), à garder comme plan B
 - `DEMO.md` : déroulé de la démo, prompts, questions attendues, plan B
 
 Seule dépendance : `python-pptx`.
